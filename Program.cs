@@ -1,7 +1,4 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore;
-
-namespace EFCoreDemo
+﻿namespace EFCoreDemo
 {
     class Program
     {

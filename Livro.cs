@@ -1,7 +1,10 @@
-public class Livro
+namespace EFCoreDemo
 {
-    public int Id { get; set; }
-    public int Titulo { get; set; }
-    public int Autor { get; set; }
-    public int AnoPublicacao { get; set; }
+    public class Livro
+    {
+        public int Id { get; set; }
+        public int Titulo { get; set; }
+        public int Autor { get; set; }
+        public int AnoPublicacao { get; set; }
+    }
 }

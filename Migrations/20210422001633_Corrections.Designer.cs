@@ -11,9 +11,10 @@ using System;
 namespace EFCoreDemo.Migrations
 {
     [DbContext(typeof(LivroContext))]
-    partial class LivroContextModelSnapshot : ModelSnapshot
+    [Migration("20210422001633_Corrections")]
+    partial class Corrections
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

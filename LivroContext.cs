@@ -8,7 +8,8 @@ namespace EFCoreDemo
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=EFCore.Demo;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer(@"Server=DESKTOP-EBARGUA\SQLEXPRESS;Database=EFCore.Demo;Trusted_Connection=True;");
+
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

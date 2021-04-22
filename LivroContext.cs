@@ -1,6 +1,7 @@
+using Microsoft.EntityFrameworkCore;
+
 namespace EFCoreDemo
 {
-    using Microsoft.EntityFrameworkCore;
 
     public class LivroContext : DbContext
     {
